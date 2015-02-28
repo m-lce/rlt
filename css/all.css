@@ -1,0 +1,41 @@
+.row-fluid img{
+
+    width: 100%;
+}
+
+.md12-img {
+    max-height: 500px;
+    min-height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    margin-top:50px;
+    background-image : url('/img/header.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+
+}
+
+.container-fluid h2{
+    text-align:center;
+    padding: 20px 0px 20px 0px;
+    font-family:fantasy
+}
+
+.no-padding {
+    padding:0px ;
+}
+
+.first-plan{
+    display: table-cell;
+    vertical-align: middle;
+    /* z-index : 5 */ ;
+}
+
+.center-but{
+    background:none;
+    /* border:none */;
+    box-shadow:none;
+    }
