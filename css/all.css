@@ -3,13 +3,14 @@
     width: 100%;
 }
 
+ .transparent {
+   background: rgba(255,255,255,0.7);
+}
+
 .md12-img {
-    max-height: 500px;
-    min-height:500px;
+    height:500px;
     overflow: hidden;
     z-index : 0 ;
-    margin-top:50px;
-    background-image : url('/img/header.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     display: table;
@@ -17,6 +18,15 @@
     table-layout: fixed;
 
 }
+
+.img-1 {
+background-image : url('/img/old_trinite.JPG');
+}
+
+.img-2 {
+background-image : url('/img/header.JPG');
+}
+
 
 .container-fluid h2{
     text-align:center;
@@ -28,14 +38,85 @@
     padding:0px ;
 }
 
+
 .first-plan{
+
+    height: 100% ;
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: bottom;
+    padding-bottom:5%;
     /* z-index : 5 */ ;
 }
 
-.center-but{
+
+.rf-txt {
+    position:relative;
+    overflow: hidden;
+    display:table;
+    z-index : 0 ;
+    height:250px;
+    width: 100%;
+    table-layout: fixed;
+
+}
+
+
+.txt{
+    position:absolute;
+    display:table-cell;
+
+    height:150px;
+    top:0px;
+    width:100%;
+    /* z-index : 5 */ ;
+}
+
+.but-bot{
+    position:absolute;
+    bottom:0;
+    display:table;
+    width:100%;
+    vertical-align: bottom;
+    /* padding-bottom:5% */;
+    /* z-index : 5 */ ;
+}
+
+.col-margin{
+    margin-bottom:10px;}
+
+.center-but, .center-but:focus{
+    color:white;
     background:none;
     /* border:none */;
     box-shadow:none;
+    border-width:2px;
     }
+
+.center-but:hover{
+    background-color:rgba(255,255,255, 0.5);
+    color:white
+    }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+    h2{
+
+        font-size:10pt;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    h2{
+
+        font-size:14pt;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    h2{
+        font-size:20pt;
+    }
+}
