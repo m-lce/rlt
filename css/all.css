@@ -3,12 +3,6 @@
 }
 
 .md12-img {
-    height:500px;
-    overflow: hidden;
-    z-index : 0 ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
     display: table;
     width: 100%;
     table-layout: fixed;
@@ -16,11 +10,43 @@
 }
 
 .img-1 {
-background-image : url('/img/old_trinite.JPG');
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/old_trinite.JPG');
 }
 
 .img-2 {
-background-image : url('/img/header.JPG');
+    color:white;
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/header.JPG');
+}
+
+
+.img-3 {
+    color:white;
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/last.jpg');
+}
+
+.txt-on-img{
+    color:white;
+}
+.txt-alone{
+    color:grey;
 }
 
 
@@ -51,10 +77,21 @@ background-image : url('/img/header.JPG');
 
 .rf-txt {
     position:relative;
-    overflow: hidden;
     display:table;
     z-index : 0 ;
-    min-height:250px;
+    ;
+    width: 100%;
+    table-layout: fixed;
+
+}
+
+
+
+.rnd-img {
+    position:relative;
+    display:table;
+    z-index : 0 ;
+    ;
     width: 100%;
     table-layout: fixed;
 
@@ -64,21 +101,24 @@ background-image : url('/img/header.JPG');
 .txt{
     position:absolute;
     display:table-cell;
-
-    height:100px;
+    /* color:grey */;
+    height:auto;
     top:0px;
-    width:100%;
+    width:100%;;
     /* z-index : 5 */ ;
 }
 
 .but-bot{
     position:absolute;
     bottom:0;
-    display:table;
+    /* display:table; */
     width:100%;
-    vertical-align: bottom;
-    /* padding-bottom:5% */;
+     padding-bottom:5px ;
     /* z-index : 5 */ ;
+}
+
+.img-but{
+    bottom:50%
 }
 
 .col-margin{
@@ -97,6 +137,15 @@ background-image : url('/img/header.JPG');
     color:white
     }
 
+.txt-but {
+    color:grey;
+    border-color:grey;
+}
+
+
+
+
+
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 767px) {
@@ -109,6 +158,9 @@ background-image : url('/img/header.JPG');
     }
     .rnd-img img{
     margin-top:10px}
+
+    .rf-txt{
+        min-height:350px}
 }
 
 /* Small devices (tablets, 769px and up) */
@@ -120,6 +172,9 @@ background-image : url('/img/header.JPG');
     .rnd-img{
     min-height:700px;
     }
+    .rf-txt{
+        min-height:350px}
+
     .rnd-img img{
     margin-top:10px}
 }
@@ -132,4 +187,6 @@ background-image : url('/img/header.JPG');
     .rnd-img{
     min-height:250px;
     }
+    .rf-txt{
+        min-height:250px}
 }
