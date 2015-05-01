@@ -1,5 +1,29 @@
- .transparent {
-   background: rgba(255,255,255,0.7);
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Ubuntu", Helvetica, Arial, sans-serif!important;
+}
+
+
+
+
+
+.transparent {
+   background: rgba(255,255,255,0.4);
+}
+
+.text-nav {
+    color:red;
 }
 
 .md12-img {
@@ -16,7 +40,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    background-image : url('/img/old_trinite.JPG');
+    background-image : url('/img/last.jpg');
 }
 
 .img-2 {
@@ -39,7 +63,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    background-image : url('/img/last.jpg');
+    background-image : url('/img/old_trinite.JPG');
 }
 
 .txt-on-img{
@@ -137,9 +161,14 @@
     color:white
     }
 
-.txt-but {
+.txt-but, .text-but:focus {
     color:grey;
     border-color:grey;
+}
+
+.txt-but:hover {
+    background-color:rgba(0,0,0, 0.1);
+    color:grey;
 }
 
 
