@@ -33,38 +33,7 @@ h6,
 
 }
 
-.img-1 {
-    height:500px;
-    overflow: hidden;
-    z-index : 0 ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    background-image : url('/img/last.jpg');
-}
 
-.img-2 {
-    color:white;
-    height:500px;
-    overflow: hidden;
-    z-index : 0 ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    background-image : url('/img/header.JPG');
-}
-
-
-.img-3 {
-    color:white;
-    height:500px;
-    overflow: hidden;
-    z-index : 0 ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    background-image : url('/img/old_trinite.JPG');
-}
 
 .txt-on-img{
     color:white;
@@ -103,7 +72,6 @@ h6,
     position:relative;
     display:table;
     z-index : 0 ;
-    ;
     width: 100%;
     table-layout: fixed;
 
@@ -124,6 +92,16 @@ h6,
 
 .txt{
     position:absolute;
+    display:table-cell;
+    /* color:grey */;
+    height:auto;
+    top:0px;
+    width:100%;;
+    /* z-index : 5 */ ;
+}
+
+.txt-no-button{
+    vertical-align: middle;
     display:table-cell;
     /* color:grey */;
     height:auto;
@@ -171,8 +149,85 @@ h6,
     color:grey;
 }
 
+/* HOME */
+
+.img-1 {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/last.jpg');
+}
+
+.img-2 {
+    color:white;
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/header.JPG');
+}
 
 
+.img-3 {
+    color:white;
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/old_trinite.JPG');
+}
+
+
+/* OFFICES */
+
+.img-1-office {
+    height:300px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/messe.jpg');
+}
+
+.img-3-office {
+    height:300px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/adoration.jpg');
+}
+
+/* ACCUEIL */
+
+.img-2-accueil {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/hiver_solidaire.jpg');
+}
+
+.img-3-accueil {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/macadam_cafe.jpg');
+}
 
 
 
