@@ -230,6 +230,106 @@ h6,
 }
 
 
+/* quartier */
+.img-quartier-opera {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/opera.jpg');
+}
+
+.img-quartier-new-tech {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/nouvelles_technologies.jpg');
+}
+
+.img-quartier-nouvelle-athenes {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/nouvelle_athenes.jpg');
+}
+
+.img-quartier-synagogue {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/synagogue.jpg');
+}
+
+.img-quartier-theatres {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/theatres.jpg');
+}
+
+.img-quartier-nd-de-lorette {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/notre_dame_de_lorette.jpg');
+}
+
+.img-quartier-saint-augustin {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/saint_augustin.jpg');
+}
+
+.img-quartier-pigalle {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/pigalle.jpg');
+}
+
+.img-quartier-grands-magasins {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/grands_magasins.jpg');
+}
+
+.img-quartier-gare-saint-lazare {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('/img/saint_lazare.jpg');
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 767px) {
