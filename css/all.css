@@ -18,7 +18,13 @@ h6,
     font-family: "Ubuntu", Helvetica, Arial, sans-serif!important;
 }
 
+h2,
+.h2{
+font-variant:small-caps}
 
+
+.navbar-brand{
+font-variant:small-caps}
 
 
 
@@ -96,6 +102,7 @@ h6,
 
 
 .txt{
+    font-size:large;
     position:absolute;
     display:table-cell;
     /* color:grey */;
@@ -106,6 +113,7 @@ h6,
 }
 
 .txt-no-button{
+    font-size:medium;
     vertical-align: middle;
     display:table-cell;
     /* color:grey */;
@@ -114,6 +122,10 @@ h6,
     width:100%;;
     /* z-index : 5 */ ;
 }
+
+.p-margin{
+margin-left:50px;
+margin-right:50px;}
 
 .but-bot{
     position:absolute;
@@ -196,7 +208,7 @@ padding: 10px 15px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    background-image : url('{{ site.baseurl }}/img/old_trinite.JPG');
+    background-image : url('{{ site.baseurl }}/img/clocher.jpg');
 }
 
 
@@ -359,7 +371,7 @@ padding: 10px 15px;
     margin-top:10px}
 
     .rf-txt{
-        min-height:350px}
+        min-height:400px}
 }
 
 /* Small devices (tablets, 769px and up) */
@@ -372,7 +384,7 @@ padding: 10px 15px;
     min-height:900px;
     }
     .rf-txt{
-        min-height:350px}
+        min-height:400px}
 
     .rnd-img img{
     margin-top:10px}
