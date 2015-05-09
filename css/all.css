@@ -55,6 +55,7 @@ h6,
 
 .no-padding {
     padding:0px ;
+    padding-top:50px;
 }
 
 .bg-fixed {
@@ -131,7 +132,10 @@ h6,
     margin-bottom:10px;}
 
 .center-but, .center-but:focus{
+    padding: 10px 15px;
+    font-size:17px;
     color:white;
+    font-variant:small-caps;
     background:none;
     /* border:none */;
     box-shadow:none;
@@ -139,16 +143,23 @@ h6,
     }
 
 .center-but:hover{
+    padding: 10px 15px;
+    font-size:17px;
     background-color:rgba(255,255,255, 0.5);
     color:white
+
     }
 
 .txt-but, .text-but:focus {
+padding: 10px 15px;
+    font-size:17px;
     color:grey;
     border-color:grey;
 }
 
 .txt-but:hover {
+    padding: 10px 15px;
+    font-size:17px;
     background-color:rgba(0,0,0, 0.1);
     color:grey;
 }
@@ -242,7 +253,7 @@ h6,
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    background-image : url('{{ site.baseurl }}/img/opera.jpg');
+    background-image : url('{{ site.baseurl }}/img/opera2.jpg');
 }
 
 .img-quartier-new-tech {
@@ -272,7 +283,7 @@ h6,
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    background-image : url('{{ site.baseurl }}/img/synagogue.jpg');
+    background-image : url('{{ site.baseurl }}/img/synagogue2.jpg');
 }
 
 .img-quartier-theatres {
@@ -302,7 +313,7 @@ h6,
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    background-image : url('{{ site.baseurl }}/img/saint_augustin.jpg');
+    background-image : url('{{ site.baseurl }}/img/saint_augustin2.jpg');
 }
 
 .img-quartier-pigalle {
@@ -342,7 +353,7 @@ h6,
         font-size:20pt;
     }
     .rnd-img{
-    min-height:700px;
+    min-height:900px;
     }
     .rnd-img img{
     margin-top:10px}
@@ -358,7 +369,7 @@ h6,
         font-size:20pt;
     }
     .rnd-img{
-    min-height:700px;
+    min-height:900px;
     }
     .rf-txt{
         min-height:350px}
