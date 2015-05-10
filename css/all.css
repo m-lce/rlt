@@ -365,13 +365,13 @@ padding: 10px 15px;
         font-size:20pt;
     }
     .rnd-img{
-    min-height:900px;
+        height:900px;
     }
     .rnd-img img{
-    margin-top:10px}
+        margin-top:10px}
 
     .rf-txt{
-        min-height:400px}
+        height:500px}
 }
 
 /* Small devices (tablets, 769px and up) */
@@ -381,10 +381,10 @@ padding: 10px 15px;
         font-size:20pt;
     }
     .rnd-img{
-    min-height:900px;
+    height:900px;
     }
     .rf-txt{
-        min-height:400px}
+        height:400px}
 
     .rnd-img img{
     margin-top:10px}
@@ -396,8 +396,8 @@ padding: 10px 15px;
         font-size:20pt;
     }
     .rnd-img{
-    min-height:250px;
+    height:250px;
     }
     .rf-txt{
-        min-height:250px}
+        height:250px}
 }
