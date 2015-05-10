@@ -372,6 +372,9 @@ padding: 10px 15px;
 
     .rf-txt{
         height:560px}
+
+    .bg-fixed{
+    height:500px}
 }
 
 /* Small devices (tablets, 769px and up) */
@@ -385,6 +388,8 @@ padding: 10px 15px;
     }
     .rf-txt{
         height:400px}
+    .bg-fixed{
+    height:500px}
 
     .rnd-img img{
     margin-top:10px}
@@ -400,4 +405,6 @@ padding: 10px 15px;
     }
     .rf-txt{
         height:250px}
+    .bg-fixed{
+    height:500px}
 }
