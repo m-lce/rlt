@@ -358,6 +358,58 @@ padding: 10px 15px;
     background-image : url('{{ site.baseurl }}/img/saint_lazare.jpg');
 }
 
+/* architecture */
+
+.img-architecture-haussmann {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('{{ site.baseurl }}/img/haussmann.jpg');
+}
+
+.img-architecture-square {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('{{ site.baseurl }}/img/square.jpg');
+}
+
+.img-architecture-interieur {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('{{ site.baseurl }}/img/interieur.jpg');
+}
+
+.img-historique-construction {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('{{ site.baseurl }}/img/construction.jpg');
+}
+
+.img-historique-vie {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('{{ site.baseurl }}/img/vie.jpg');
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 767px) {
     h2{
