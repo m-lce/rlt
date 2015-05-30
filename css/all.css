@@ -531,3 +531,17 @@ padding: 10px 15px;
     .bg-fixed{
     height:500px}
 }
+
+
+@media (min-width: 1600px) {
+    h2{
+        font-size:20pt;
+    }
+    .rnd-img{
+    height:250px;
+    }
+    .rf-txt{
+        height:300px}
+    .bg-fixed{
+    height:750px}
+}
