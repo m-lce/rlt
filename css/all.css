@@ -22,6 +22,10 @@ h2,
 .h2{
 font-variant:small-caps}
 
+hr {
+    text-align: center;
+    height: 3px;
+}
 
 .navbar-brand{
 font-variant:small-caps}
@@ -410,6 +414,71 @@ padding: 10px 15px;
     background-image : url('{{ site.baseurl }}/img/vie.jpg');
 }
 
+/*visite*/
+.img-visite {
+    height:650px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('{{ site.baseurl }}/img/visiter.jpg');
+}
+/* Restauration */
+.img-restauration {
+    height:650px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('{{ site.baseurl }}/img/restauration.jpg');
+}
+
+/* 150 ans */
+
+.img-150 {
+    height:650px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('{{ site.baseurl }}/img/150ans.jpg');
+}
+
+/* concerts */
+
+.img-concert-jeudi {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('{{ site.baseurl }}/img/concert-cloche.jpg');
+}
+
+.img-concert-messiaen {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('{{ site.baseurl }}/img/concerts_messiaen.jpg');
+}
+
+.img-architecture-interieur {
+    height:500px;
+    overflow: hidden;
+    z-index : 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-image : url('{{ site.baseurl }}/img/interieur.jpg');
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 767px) {
     h2{
@@ -428,6 +497,8 @@ padding: 10px 15px;
     .bg-fixed{
     height:500px}
 }
+
+
 
 /* Small devices (tablets, 769px and up) */
 @media (min-width: 768px ) {
