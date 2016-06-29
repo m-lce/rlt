@@ -92,6 +92,15 @@ font-variant:small-caps}
 
 }
 
+.rf-video {
+    position:relative;
+    display:table;
+    z-index : 0 ;
+    width: 100%;
+    table-layout: fixed;
+
+}
+
 
 
 .rnd-img {
@@ -511,6 +520,8 @@ padding: 10px 15px;
     }
     .rf-txt{
         height:400px}
+    .rf-video{
+        height:300px}
     .bg-fixed{
     height:500px}
 
@@ -528,6 +539,10 @@ padding: 10px 15px;
     }
     .rf-txt{
         height:250px}
+
+    .rf-video{
+        height:500px}
+
     .bg-fixed{
     height:500px}
 }
@@ -542,6 +557,9 @@ padding: 10px 15px;
     }
     .rf-txt{
         height:300px}
+
+    .rf-video{
+        height:800px}
     .bg-fixed{
     height:750px}
     .img-1{
